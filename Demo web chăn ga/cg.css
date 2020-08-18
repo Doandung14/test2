@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: yellowgreen;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.menu{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.menu ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu img {
+    width: 80px;
+    margin: 0px 15px -20px;
+}
+.slice img {
+    width: 1200px;
+}
+.slice {
+    margin-top: 30px;
+    position: relative;
+}
+.slice .left{
+    position: absolute;
+    left: 75px;
+    top: 120px;
+}
+.slice .left h2 {
+    font-size: 35px;
+    color: white;
+}
+.btn{
+    padding: 15px 55px;
+    background-color: greenyellow
+}
+.layer1{
+    overflow: hidden;
+    position: relative;
+}
+.layer1 img {
+    width: 250px;
+    height: 200px;
+    margin-left: 30px;
+    transform:scale(1.0);
+    transition: transform 1s;
+}
+.layer1 img:hover {
+    transform: scale(1.5);
+    filter: brightness(0.5);
+}
+#tittle {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.sp, .ten, .gia, .mua {
+    width: 250px;
+    margin-left: 20px;
+    float: left;
+    overflow: hidden;
+}
+.ten p {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+.gia {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.gia span {
+    font-size: 12px;
+}
+.mua {
+    text-align: center;
+}
